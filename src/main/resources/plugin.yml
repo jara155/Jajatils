@@ -1,0 +1,6 @@
+name: Jajatils
+version: '${project.version}'
+main: me.jaja.jajatils.Jajatils
+api-version: 1.19
+authors: [ Jaja ]
+description: Wannabe essentials, ale lepsiii

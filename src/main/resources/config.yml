@@ -1,0 +1,76 @@
+# Jajatils/config.yml
+#
+# Placeholders: %STATUS% %TARGET% %GAMEMODE% %RAM_USED% %RAM_MAX% %WARPS%
+#
+# by jája
+
+Prefix: "&cServer »"
+Reloaded: "&aNačten config.yml, welcome.yml, spawn.yml"
+Ram: "&7%RAM_USED%/%RAM_MAX%"
+
+IsDelayed: "&7Počkej chvíli."
+NoPerms: "&cNemáš práva."
+NotAPlayer: "&bJsi hráč?"
+PlayerNotExist: "&bTakového hráče neznám."
+NoArgs: "&7Musíš napsat, co chceš."
+TargetIsSelf: "&7Hochu, prostě dneska se sám neuděláš."
+NotEnoughArgs: "&7V kodu je malo placeholderu nebo malo replacu, pokud nejsi &bdeveloper&f, tak ho prosím &akontaktuj&f."
+
+SpawnNotExist: "&7Jako sorry, ale spawn &cneexistuje&7."
+SpawnSetted: "&7Spawn &anastaven&7."
+TpToSpawn: "&AVítej na spawnu."
+
+ChatDelayMsg: "&7Počkej chvíli. &aZakup &fjsi &eVIP&f pro zrušení."
+ChatDelay: 2 # Seconds
+
+Vanished: "&7Vanish %STATUS%."
+
+WarpAdd: "&aPřidán &7warp %WARP_NAME%."
+WarpRem: "&cOdstraněn &7warp %WARP_NAME%."
+WarpTeleport: "&aVítej na %WARP_NAME%"
+WarpNotExist: "&7Warp %WARP_NAME% &cneexistuje."
+WarpExist: "&7Warp %WARP_NAME% &aexistuje."
+Warps: "&7Warpy: &a%WARPS%"
+
+LaunchPads: true
+FallDamage: true
+LaunchTopBlock: ""
+LaunchDownBlock: "SLIME_BLOCK"
+
+JoinMessage: "[&a+&f] %TARGET%"
+QuitMessage: "[&c-&f] %TARGET%"
+
+SpeedSetted: "&7Nastavena rychlost %SPEED%."
+SpeedSettedOther: "7Nastaveno hráči %TARGET% rychlost %SPEED%."
+SpeedToMuch: "&7Zas nepřeháněj."
+
+Enable: "&azapnuto&7"
+Disable: "&cvypnuto&7"
+
+TpSender: "&7Portnul jsi se na %TARGET%."
+TpTarget: "&7Portnul se na tebe %TARGET%."
+TpSelf: "&7Sám by ses chtěl portnout? Egoisto."
+
+Fly: "&7Létání %STATUS%."
+FlyOther: "&7Létání %STATUS% &7hráči %TARGET%."
+
+God: "&7God %STATUS%."
+GodOther: "&7God %STATUS% &7hráči %TARGET%."
+
+Gamemode: "&7Nastaven &c%GAMEMODE%&7."
+GamemodeOther: "&7Nastaven &c%GAMEMODE% &7hráči %TARGET%"
+
+Repair: "&aÚspěšně opraveno."
+CantRepair: "&7Toto prostě &cneopravíš&7."
+
+Feed: "&7Nakrmen."
+FeedOther: "&7Nakrmen hráč %TARGET%."
+Heal: "&7Uzdraven."
+HealOther: "&7Uzdraven hráč %TARGET%."
+
+HelpMsg:
+  - "===================="
+  - ""
+  - "   /reload - Znovu načte config.yml"
+  - ""
+  - "===================="
